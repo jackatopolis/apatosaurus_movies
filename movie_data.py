@@ -18,4 +18,5 @@ for year in all_movies.keys():
         data = req.get(url).json()
         movie_data[movie] = data
         all_movies[year] = movie_data
-    
+
+print(all_movies[1990])
