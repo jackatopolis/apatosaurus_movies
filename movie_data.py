@@ -8,6 +8,7 @@ Created on Sat Jul 24 11:14:16 2021
 import requests as req
 from movie_list import all_movies
 from config import api_key
+import csv
 
 movie_data = {}
 
@@ -19,4 +20,4 @@ for year in all_movies.keys():
         movie_data[movie] = data
         all_movies[year] = movie_data
 
-print(all_movies[1990])
+    
