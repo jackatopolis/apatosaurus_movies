@@ -13,7 +13,7 @@ for j in range(1980,2021):
     hello = soups.find_all('td',attr1)
     movies = []
     for i in range(50):
-        movie = hello[i].text
+        movie = hello[i].a.text
         movies.append(movie)
     all_movies[j]=movies
     
