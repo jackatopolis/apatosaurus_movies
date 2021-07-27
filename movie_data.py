@@ -20,4 +20,3 @@ for year in all_movies.keys():
         movie_data[movie] = data
         all_movies[year] = movie_data
 
-    
