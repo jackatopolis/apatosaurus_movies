@@ -15,7 +15,7 @@ movie_data = {}
 for year in all_movies.keys():
     movie_data = {}
     for movie in all_movies[year]:
-        url = f"http://www.omdbapi.com/?apikey={api_key}&t={movie}"
+        url = f"http://www.omdbapi.com/?apikey={api_key}&t={movie}&y={year}&type=movie"
         data = req.get(url).json()
         movie_data[movie] = data
         all_movies[year] = movie_data
