@@ -1,7 +1,7 @@
 # Movies
-#### Team Apatosaurus
-#### Members: Jack Cohen (PM), Novak Radovic, Swapnali Mehta
-#### August 3, 2021
+Team Apatosaurus
+Members: Jack Cohen (PM), Novak Radovic, Swapnali Mehta
+August 3, 2021
 
 ## Abstract
 
