@@ -15,16 +15,16 @@ To answer this question, the team took the top 50 box office revenue movies from
 By first creating a correlation heatmap with Seaborn, we can see that there are some little correlations between runtime, ratings, and box office revenue. It is clear that no one variable will maximize movie revenue on its own. Therefore it is important to consider all variables and create various hypotheses.
 
 ### Hypotheses
-Longer movie runtimes produce better IMDB score and metascore, which then produce more box office revenue. Long runtimes allow for more complex plots and plot twists.
-Comedy, action, drama, and adventure are the largest revenue producing genres. Adventure movies will increase over time, as people require more stimulus and plot twists to be satisfied with a movie.
-Movies with a PG-13 rating will be most popular and generate more revenue, since they are more accessible to a larger population.
-The best time to release the movie is in June or December, since schools have summer/winter break and have more free time to go to the theaters.
+* Longer movie runtimes produce better IMDB score and metascore, which then produce more box office revenue. Long runtimes allow for more complex plots and plot twists.
+* Comedy, action, drama, and adventure are the largest revenue producing genres. Adventure movies will increase over time, as people require more stimulus and plot twists to be satisfied with a movie.
+* Movies with a PG-13 rating will be most popular and generate more revenue, since they are more accessible to a larger population.
+* The best time to release the movie is in June or December, since schools have summer/winter break and have more free time to go to the theaters.
 
 ### Null Hypothesis
-Movie runtimes have no influence on IMDB score, metascore, or box office revenue.
-No genre correlates with increased revenue
-Movies without a PG-13 rating will be most popular and generate more revenue
-There is no best month to release a movie
+* Movie runtimes have no influence on IMDB score, metascore, or box office revenue.
+* No genre correlates with increased revenue
+* Movies without a PG-13 rating will be most popular and generate more revenue
+* There is no best month to release a movie.
 
 ### Genre
 The team found the genres that produced the most revenue per movie for each year and the genres that appeared in the most movies each year, then used this data to create a histogram of the most frequently appearing movie genres for the past 40/20/10/5 years. Looking at data from 1980-2020 and 2000-2020, it is clear that comedy is the most frequently appearing genre, followed by adventure/drama/action. This trend changes in the past 5/10 years, where adventure becomes the most frequent. Analyzing the revenue per movie for each genre, it’s clear that Sci-Fi is the genre that produces the most revenue per movie, regardless of the timeframe.
@@ -41,15 +41,15 @@ The team looked at the frequency of R, PG-13, PG, G rated movies through the yea
 ## Conclusion
 
 Ideal characteristics a movie should have to maximize revenue in 2021 are:
-Genres: Sci-Fi, Adventure, Animation
-Runtime: 145 to 155 minutes
-Release month: May or December
-MPAA Rating: PG-13
+* Genres: Sci-Fi, Adventure, Animation
+* Runtime: 145 to 155 minutes
+* Release month: May or December
+* MPAA Rating: PG-13
 
 ## Improvements and Limitations
 
-While the data used provided significant insights to the movie industry, there are limitations to the research that could be improved to increase the efficacy of the analysis. These limitations include:
-No budget information, no profitability information; revenue can be large, but is insignificant if no cost is taken into account
-Box office records only go back to 1977
-Some movies didn’t have records in the OMDB APIs
-Look at other revenue streams and not just the Box Office revenue
+* While the data used provided significant insights to the movie industry, there are limitations to the research that could be improved to increase the efficacy of the analysis. These limitations include:
+* No budget information, no profitability information; revenue can be large, but is insignificant if no cost is taken into account
+* Box office records only go back to 1977
+* Some movies didn’t have records in the OMDB APIs
+* Look at other revenue streams and not just the Box Office revenue
