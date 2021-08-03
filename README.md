@@ -48,7 +48,7 @@ Ideal characteristics a movie should have to maximize revenue in 2021 are:
 
 ## Improvements and Limitations
 
-* While the data used provided significant insights to the movie industry, there are limitations to the research that could be improved to increase the efficacy of the analysis. These limitations include:
+While the data used provided significant insights to the movie industry, there are limitations to the research that could be improved to increase the efficacy of the analysis. These limitations include:
 * No budget information, no profitability information; revenue can be large, but is insignificant if no cost is taken into account
 * Box office records only go back to 1977
 * Some movies didn’t have records in the OMDB APIs
